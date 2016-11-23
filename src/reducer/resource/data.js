@@ -8,7 +8,7 @@ import {
     CRUD_CREATE_SUCCESS,
     CRUD_GET_MATCHING_SUCCESS,
 } from '../../actions/dataActions';
-
+console.log('gwaaahhhh');
 /**
  * The data state is an instance pool, which keeps track of the fetch date of each instance.
  *
@@ -33,6 +33,7 @@ const cacheDuration = 10 * 60 * 1000; // ten minutes
  * only once fresh data is fetched.
  */
 const addRecords = (newRecords = [], oldRecords) => {
+	console.log('start of addRecord', newRecords);
     // prepare new records and timestamp them
     const newRecordsById = newRecords.reduce((prev, record) => {
         prev[record.id] = record; // eslint-disable-line no-param-reassign
@@ -65,6 +66,8 @@ const addRecords = (newRecords = [], oldRecords) => {
         ...oldValidRecordsFetchedAt,
         ...newRecordsFetchedAt,
     } }); // non enumerable by default
+
+	console.log('end of addRecord', newRecords);
     return records;
 };
 
