@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68c742ed-5abe-42d5-8335-141c0e90be12" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducer/resource/data.js" afterPath="$PROJECT_DIR$/src/reducer/resource/data.js" />
-    </list>
+    <list default="true" id="68c742ed-5abe-42d5-8335-141c0e90be12" name="Default" comment="" />
     <ignored path="admin-on-rest.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
